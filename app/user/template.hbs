@@ -1,0 +1,17 @@
+<!-- app/user/template.hbs -->
+
+<h1>My profile</h1>
+
+{{#link-to "user.index"}}
+  My Metrics
+{{/link-to}}
+
+{{#link-to "user.blog"}}
+  My Blog
+{{/link-to}}
+
+{{#link-to "user.story"}}
+  My Story
+{{/link-to}}
+
+{{outlet}}

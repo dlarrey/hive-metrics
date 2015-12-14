@@ -1,0 +1,20 @@
+<!-- app/application/template.hbs -->
+
+<header>
+  <div class="page-container">
+
+    <div class="logo"></div>
+
+    <nav>
+      {{#link-to "home"}}Home{{/link-to}}
+
+      {{#link-to "user"}}Profile{{/link-to}}
+        
+        /<img class="avatar" src="/images/PuffOfSmoke.jpg" />
+      
+
+      <button class="beebutton">My Metrics</button>
+    </nav>
+
+  </div>
+</header>
